@@ -8,10 +8,10 @@ JJSearchViewAnim
 <table>
   <thead>
     <tr>
-      <th>设计图</th>
-      <th> App Demo </th>
-      <th>设计者</th>
-      <th>相关类名</th>
+      <th>Design</th>
+      <th>Demo</th>
+      <th>Designer</th>
+      <th>Class</th>
     </tr>
   </thead>
   <tbody>
@@ -42,19 +42,19 @@ JJSearchViewAnim
     <tr>
       <td><img src="http://ww1.sinaimg.cn/mw690/7ef01fcagw1f2gzyzdp5vg20an05hgng.gif" width="240"></td>
        <td><img src="http://ww1.sinaimg.cn/mw690/7ef01fcagw1f2kg8o2htzg20b505ljrj.gif" width="240"></td>
-      <td>Nicol¨¢s J. Engler</td>
+      <td> Rahul Bhosale</td>
       <td>JJChangeArrowController</td>
     </tr>
     <tr>
       <td><img src="http://ww1.sinaimg.cn/mw690/7ef01fcagw1f2gzyzljmyg20an05h0t0.gif" width="240"></td>
        <td><img src="http://ww3.sinaimg.cn/mw690/7ef01fcagw1f2kfx644s8g20b505lglq.gif" width="240"></td>
-        <td>Rahul Bhosale</td>
+        <td>Nicolás J. Engler</td>
       <td>JJCircleToLineAlphaController</td>
     </tr>
     <tr>
       <td><img src="http://ww1.sinaimg.cn/mw690/7ef01fcagw1f2gzywvmklg20an05hk2w.gif" width="240"></td>
        <td><img src="http://ww2.sinaimg.cn/mw690/7ef01fcagw1f2kfx6egogg20b505lq3r.gif" width="240"></td>
-       <td>Boris Kirov</td>
+       <td>  Boris Kirov </td>
       <td>JJCircleToBarController</td>
     </tr>
     <tr>
