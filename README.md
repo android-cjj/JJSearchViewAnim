@@ -50,13 +50,13 @@ JJSearchViewAnim
     <tr>
       <td><img src="http://ww1.sinaimg.cn/mw690/7ef01fcagw1f2gzyzljmyg20an05h0t0.gif" width="240"></td>
        <td><img src="http://ww3.sinaimg.cn/mw690/7ef01fcagw1f2kfx644s8g20b505lglq.gif" width="240"></td>
-        <td>Rahul Bhosale</td>
+        <td>Nicolás J. Engler</td>
       <td>JJCircleToLineAlphaController</td>
     </tr>
     <tr>
       <td><img src="http://ww1.sinaimg.cn/mw690/7ef01fcagw1f2gzywvmklg20an05hk2w.gif" width="240"></td>
        <td><img src="http://ww2.sinaimg.cn/mw690/7ef01fcagw1f2kfx6egogg20b505lq3r.gif" width="240"></td>
-       <td> Nicolás J. Engler </td>
+       <td>  Boris Kirov </td>
       <td>JJCircleToBarController</td>
     </tr>
     <tr>
