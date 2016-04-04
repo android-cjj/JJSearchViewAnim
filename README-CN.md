@@ -2,16 +2,16 @@ JJSearchViewAnim
 ============================
 ![](http://ww1.sinaimg.cn/mw690/7ef01fcagw1f2kefqi8ekj205s05s749.jpg)
 
-####A cool search view animation library ,I hope you like it.
+####一个炫酷的SearchView搜索动画库，希望你希望！
 
-###look
+###说说
 <table>
   <thead>
     <tr>
-      <th>Design</th>
-      <th>Demo</th>
-      <th>Designer</th>
-      <th>Class</th>
+      <th>设计图</th>
+      <th> App Demo </th>
+      <th>设计者</th>
+      <th>相关类名</th>
     </tr>
   </thead>
   <tbody>
@@ -42,7 +42,7 @@ JJSearchViewAnim
     <tr>
       <td><img src="http://ww1.sinaimg.cn/mw690/7ef01fcagw1f2gzyzdp5vg20an05hgng.gif" width="240"></td>
        <td><img src="http://ww1.sinaimg.cn/mw690/7ef01fcagw1f2kg8o2htzg20b505ljrj.gif" width="240"></td>
-      <td>Nicol��s J. Engler</td>
+      <td>Nicol¨¢s J. Engler</td>
       <td>JJChangeArrowController</td>
     </tr>
     <tr>
@@ -71,9 +71,10 @@ JJSearchViewAnim
     </tr>
   </tbody>
 </table>
+* 注意：最后一个效果[MaterialSearchView](https://github.com/android-cjj/MaterialSearchView)，由于之前有写过，就没有集合进去了.
 
-###Usage
-#### (1) In xml
+###使用说明
+#### (1) 在布局文件xml中
 ```xml
 <RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -88,7 +89,7 @@ JJSearchViewAnim
         android:layout_height="match_parent"/>
  </RelativeLayout>
 ```
-#### (2) In java
+#### (2) 在java代码中
 ```java
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -98,14 +99,14 @@ JJSearchViewAnim
         mJJSearchView.setController(new JJChangeArrowController());
     }
 ```
-#### (3) setting
+#### (3) 设置动画开启及恢复
 ```java
 mJJSearchView.startAnim();
 mJJSearchView.resetAnim();
 ```
 
 ####about me
-A low-level android software development engineers, like watching cartoons, like playing football, love life ! If you want to make friends with me, You can email tell me.Email address: cjjcjj2014@gmail.com.
+如果你喜欢这个东东的话，可以关注我[github](https://github.com/android-cjj),follow下我，谢谢支持!也可以关注我微博[Android_cJJ](http://weibo.com/chenjijun2011/).
 
 
 License
