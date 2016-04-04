@@ -133,6 +133,10 @@ mJJSearchView.resetAnim();
 
 <img src="http://ww1.sinaimg.cn/mw690/7ef01fcagw1f2kg8o2htzg20b505ljrj.gif" width="380">
 
+图四：
+
+<img src="http://ww2.sinaimg.cn/mw690/7ef01fcagw1f2gzz0xbkfg20an05hq47.gif" width="380">
+
 还有几种效果就不贴图了，你可以上我Github瞧瞧的。
 
 此时，如果你喜欢上这些酷炫的动画时，想知道他们是怎么在代码中实现的，没问题，我这就手把手教你撩一个绚丽的SearchViewAnim ， 呵呵，
@@ -142,7 +146,9 @@ mJJSearchView.resetAnim();
 
 相信大家通过我形象的描述已经知道效果是怎样了，现在就把刚刚描叙的画出来吧。
 
-(1) 自定义类SearchView继承View,重写` onDraw(Canvas canvas)`方法,利用画笔Paint在画布Canvas绘制一个普通的的视图，如下：
+####(1) 自定义类SearchView继承View
+
+重写` onDraw(Canvas canvas)`方法,利用画笔Paint在画布Canvas绘制一个普通的的视图，如下：
 
 ![](http://ww1.sinaimg.cn/mw690/7ef01fcagw1f2knk6pazwj20b408cmwz.jpg)
 
@@ -161,22 +167,33 @@ canvas.drawCircle(cx, cy, cr, paint);
 ```
 这一步比较简单，就不多说了。
 
-(2) 实现动画效果，这里的动画有dot进入圈圈时泛起的波浪效果和dot 在圈圈内的运行轨迹。
+####(2) 实现动画效果，这里的动画有dot进入圈圈时泛起的波浪效果和dot 在圈圈内的运行轨迹。
 
-因为运行轨迹是固定的，我们把经过的路径设置给Path,在构造`PathMeasure`函数（不知道PathMeasure用法的同学自己搜索学习），使用它两个方法`getLength()`,.可获取dot运行路径的长度,getPosTan(float distance, float pos[],float tan[])可根据distance可以获取dot的坐标点pos[].
+因为运行轨迹是固定的，我们把经过的路径设置给Path,在构造`PathMeasure`函数（不知道PathMeasure用法的同学自己搜索学习），使用它两个方法`getLength()`,.可获取dot运行路径的长度,`getPosTan(float distance, float pos[],float tan[])`可根据distance可以获取dot的坐标点pos[].
 写出代码就是：
 ```java
- ValueAnimator valueAnimator = ValueAnimator.ofFloat(0, mPathMeasure.getLength());//创建0~mPathMeasure.getLength()的过度动画值
+//创建0~mPathMeasure.getLength()的过度动画值
+ ValueAnimator valueAnimator = ValueAnimator.ofFloat(0, mPathMeasure.getLength());
  valueAnimator.addUpdateListener(new ValueAnimator.AnimatorUpdateListener() {
             @Override
             public void onAnimationUpdate(ValueAnimator valueAnimator) {
                 mPro = (float) valueAnimator.getAnimatedValue();
                 if (null != pathMeasure)
-                    pathMeasure.getPosTan(mPro, mPos, null);//获取当前点坐标保存到mPos
+                    pathMeasure.getPosTan(mPro, mPos, null);//获取当前点坐标保存到mPos[]
                 getSearchView().invalidate();//调用ondraw()函数
             }
         });
 ```
+至于dot进入圈圈时泛起的波浪效果，其实就是曲线的不断扩大而已，这里我们可以利用贝塞尔函数`quadTo()`,不断改变控制点来实现效果。
+
+####（3）收尾Reset
+
+图一因为结束动画之后，视图和开始时一样，所以我们并不需要绘制Reset时的动画，只需重置状态就可以了，而如果是图三那种情况，动画停止后是箭头的效果，就需要要逆着回去绘制SearchView的过程了。
+
+
+
+
+
 
 
 
