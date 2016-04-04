@@ -44,7 +44,7 @@ JJSearchViewAnim
     <tr>
       <td><img src="http://ww1.sinaimg.cn/mw690/7ef01fcagw1f2gzyzdp5vg20an05hgng.gif" width="240"></td>
        <td><img src="http://ww1.sinaimg.cn/mw690/7ef01fcagw1f2kg8o2htzg20b505ljrj.gif" width="240"></td>
-      <td>Nicolás J. Engler</td>
+      <td> Rahul Bhosale</td>
       <td>JJChangeArrowController</td>
     </tr>
     <tr>
