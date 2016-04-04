@@ -147,6 +147,7 @@ mJJSearchView.resetAnim();
 ![](http://ww1.sinaimg.cn/mw690/7ef01fcagw1f2knk6pazwj20b408cmwz.jpg)
 
 这里有两种画法：
+
 1.横向画圆、画直线后，旋转画布45度
 ```java
 canvas.rotate(45, cx, cy);
@@ -160,7 +161,23 @@ canvas.drawCircle(cx, cy, cr, paint);
 ```
 这一步比较简单，就不多说了。
 
-(2) 
+(2) 实现动画效果，这里的动画有dot进入圈圈时泛起的波浪效果和dot 在圈圈内的运行轨迹。
+
+因为运行轨迹是固定的，我们把经过的路径设置给Path,在构造`PathMeasure`函数（不知道PathMeasure用法的同学自己搜索学习），使用它两个方法`getLength()`,.可获取dot运行路径的长度,getPosTan(float distance, float pos[],float tan[])可根据distance可以获取dot的坐标点pos[].
+写出代码就是：
+```java
+ ValueAnimator valueAnimator = ValueAnimator.ofFloat(0, mPathMeasure.getLength());//创建0~mPathMeasure.getLength()的过度动画值
+ valueAnimator.addUpdateListener(new ValueAnimator.AnimatorUpdateListener() {
+            @Override
+            public void onAnimationUpdate(ValueAnimator valueAnimator) {
+                mPro = (float) valueAnimator.getAnimatedValue();
+                if (null != pathMeasure)
+                    pathMeasure.getPosTan(mPro, mPos, null);//获取当前点坐标保存到mPos
+                getSearchView().invalidate();//调用ondraw()函数
+            }
+        });
+```
+
 
 
 
