@@ -110,7 +110,7 @@ mJJSearchView.resetAnim();
 
 ####前言：周末强撸一个库,差点灰飞烟灭.无妨,人生自古谁无死，来生继续撸代码.
 
-立马如主题，几乎每个App都有搜索功能，然后形式都是千篇一律。我举个例子吧，就微信来说：
+立马入主题，几乎每个App都有搜索功能，然而形式千篇一律。我举个例子吧，就微信来说：
 
 ![](https://camo.githubusercontent.com/866cc7d275236caddf7330c35ebeda6a94f94d40/687474703a2f2f7777772e61706b6275732e636f6d2f646174612f6174746163686d656e742f666f72756d2f3230313530382f30372f313631303231723330336a6e73707377366b336a6d702e706e67)
 
@@ -135,7 +135,34 @@ mJJSearchView.resetAnim();
 
 还有几种效果就不贴图了，你可以上我Github瞧瞧的。
 
-如果你此时喜欢上这些酷炫的动画时，想知道他们是怎么在代码中实现的，没问题，我这就手把手教你撩一个绚丽的SearchViewAnim,呵呵，有点吹大了，大概说说我的思路。
+此时，如果你喜欢上这些酷炫的动画时，想知道他们是怎么在代码中实现的，没问题，我这就手把手教你撩一个绚丽的SearchViewAnim ， 呵呵，
+有点吹大了，说说我实现的思路。
+
+图一的效果是SearchView是由一个圆圈和一条直线（尾巴）构成的，开启动画时，尾巴慢慢消失成一点，然后这一点 进入圆圈内时，泛起波纹，在圈内四处逗留，然后在圆圈中心点短暂的思考了人生，又冲出去乖乖做一条尾巴。
+
+相信大家通过我形象的描述已经知道效果是怎样了，现在就把刚刚描叙的画出来吧。
+
+(1) 自定义类SearchView继承View,重写` onDraw(Canvas canvas)`方法,利用画笔Paint在画布Canvas绘制一个普通的的视图，如下：
+
+![](http://assets.materialup.com/uploads/a7abe2bc-097d-4ba3-985c-02d09685c22e/teaser.png)
+
+这里有两种画法：
+1.横向画圆、画直线后，选择画布45度
+```java
+canvas.rotate(45, cx, cy);
+canvas.drawLine(cx + cr, cy, cx + cr * 2, cy, paint);
+canvas.drawCircle(cx, cy, cr, paint);
+```
+2.直接算出坐标点绘制
+```java
+ canvas.drawCircle(cx, cy, cr, paint);
+ canvas.drawLine(cx + cr * sign, cy + cr * sign, scx, cy + cr * 2 * sign, paint);
+```
+这个比较简单，就不多说了。
+
+(2) 
+
+
 
 
 
