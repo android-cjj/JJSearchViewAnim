@@ -100,13 +100,13 @@ JJSearchViewAnim
         mJJSearchView.setController(new JJChangeArrowController());
     }
 ```
-#### (3) setting
+#### (3) Setting
 ```java
 mJJSearchView.startAnim();
 mJJSearchView.resetAnim();
 ```
 
-####thanks:
+####Thanks:
 
 [http://www.materialup.com/posts/search-0c73a055-dcc9-486f-8540-f9517204edf8](http://www.materialup.com/posts/search-0c73a055-dcc9-486f-8540-f9517204edf8)
 
@@ -124,7 +124,8 @@ mJJSearchView.resetAnim();
 
 [http://www.materialup.com/posts/css3-jquery-material-design-close-animation](http://www.materialup.com/posts/css3-jquery-material-design-close-animation)
 
-####about me
+
+####About me
 A low-level android software development engineers, like watching cartoons, like playing football, love life ! If you want to make friends with me, You can email tell me.Email address: cjjcjj2014@gmail.com.
 
 
