@@ -144,7 +144,7 @@ mJJSearchView.resetAnim();
 
 (1) 自定义类SearchView继承View,重写` onDraw(Canvas canvas)`方法,利用画笔Paint在画布Canvas绘制一个普通的的视图，如下：
 
-![](http://assets.materialup.com/uploads/a7abe2bc-097d-4ba3-985c-02d09685c22e/teaser.png)
+![](http://ww1.sinaimg.cn/mw690/7ef01fcagw1f2knk6pazwj20b408cmwz.jpg)
 
 这里有两种画法：
 1.横向画圆、画直线后，旋转画布45度
@@ -158,7 +158,7 @@ canvas.drawCircle(cx, cy, cr, paint);
  canvas.drawCircle(cx, cy, cr, paint);
  canvas.drawLine(cx + cr * sign, cy + cr * sign, scx, cy + cr * 2 * sign, paint);
 ```
-这个比较简单，就不多说了。
+这一步比较简单，就不多说了。
 
 (2) 
 
