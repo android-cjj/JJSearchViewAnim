@@ -2,7 +2,7 @@ JJSearchViewAnim
 ============================
 ![](http://ww1.sinaimg.cn/mw690/7ef01fcagw1f2kefqi8ekj205s05s749.jpg)
 
-####一个炫酷的SearchView搜索动画库，希望你希望！
+####一个炫酷的SearchView搜索动画库，希望你喜欢！
 
 
 <table>
