@@ -147,7 +147,7 @@ mJJSearchView.resetAnim();
 ![](http://assets.materialup.com/uploads/a7abe2bc-097d-4ba3-985c-02d09685c22e/teaser.png)
 
 这里有两种画法：
-1.横向画圆、画直线后，选择画布45度
+1.横向画圆、画直线后，旋转画布45度
 ```java
 canvas.rotate(45, cx, cy);
 canvas.drawLine(cx + cr, cy, cx + cr * 2, cy, paint);
