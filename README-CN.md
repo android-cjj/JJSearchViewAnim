@@ -121,9 +121,15 @@ mJJSearchView.resetAnim();
 现在大部分App都是用这种方式了。我是希望能有App把这个功能做得酷炫点，毕竟它也是用户经常要用到的，给用户良好的体验还是很重要的。
 为此，我实现了别人设计的一些SearchView酷炫效果，可能不是很像，你就勉强看看吧。
 
+图一：
+
 <img src="http://ww2.sinaimg.cn/mw690/7ef01fcagw1f2kfx45rqyg20b505lq3b.gif" width="380">
 
+图二：
+
 <img src="http://ww1.sinaimg.cn/mw690/7ef01fcagw1f2gzyysygrg20an05h3zb.gif" width="380">
+
+图三：
 
 <img src="http://ww1.sinaimg.cn/mw690/7ef01fcagw1f2kg8o2htzg20b505ljrj.gif" width="380">
 
