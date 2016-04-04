@@ -72,4 +72,37 @@ JJSearchViewAnim
   </tbody>
 </table>
 
+###Usage
+####(1)In xml
+```xml
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.cjj.jjsearchviewanim.MainActivity">
+
+    <com.cjj.sva.JJSearchView
+        android:id="@+id/jjsv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+ </RelativeLayout>
+```
+####(2)In java
+```java
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+        JJSearchView mJJSearchView = (JJSearchView) findViewById(R.id.jjsv);
+        mJJSearchView.setController(new JJChangeArrowController());
+    }
+```
+####(3)setting
+```java
+mJJSearchView.startAnim();
+mJJSearchView.resetAnim();
+```
+
+
 
