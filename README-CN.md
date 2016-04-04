@@ -108,7 +108,9 @@ mJJSearchView.resetAnim();
 
 
 
-####前言：周末强撸一个库，差点灰飞烟灭。无妨，人生自古谁无死， 来生继续撸代码。立马如主题，几乎每个App都有搜索功能，然后形式都是千篇一律。我举个例子吧，就微信来说：
+####前言：周末强撸一个库,差点灰飞烟灭.无妨,人生自古谁无死，来生继续撸代码.
+
+立马如主题，几乎每个App都有搜索功能，然后形式都是千篇一律。我举个例子吧，就微信来说：
 
 ![](https://camo.githubusercontent.com/866cc7d275236caddf7330c35ebeda6a94f94d40/687474703a2f2f7777772e61706b6275732e636f6d2f646174612f6174746163686d656e742f666f72756d2f3230313530382f30372f313631303231723330336a6e73707377366b336a6d702e706e67)
 
@@ -116,8 +118,15 @@ mJJSearchView.resetAnim();
 
 ![](https://camo.githubusercontent.com/b6808c86f8456b9f9e2b34d88108ecb6476fdab7/687474703a2f2f7777772e61706b6275732e636f6d2f646174612f6174746163686d656e742f666f72756d2f3230313530382f30372f3136313032326f6c6d726e75696d6d66696d316d6d622e706e67)
 
-现在大部分App都是用这种方式了。我是希望能有App能把这个功能做得酷炫点，毕竟他也是用户经常要用到的，给用户良好的体验很重要，难道不是吗？
-为此，我写了一些SearchView的动画效果，可能不是很精致，你就勉强看看吧。
+现在大部分App都是用这种方式了。我是希望能有App把这个功能做得酷炫点，毕竟它也是用户经常要用到的，给用户良好的体验还是很重要的。
+为此，我实现了别人设计的一些SearchView酷炫效果，可能不是很像，你就勉强看看吧。
+
+<img src="http://ww3.sinaimg.cn/mw690/7ef01fcagw1f2gzz0570bg20an05hmxv.gif" width="380">
+
+<img src="http://ww1.sinaimg.cn/mw690/7ef01fcagw1f2gzyysygrg20an05h3zb.gif" width="380">
+
+<img src="http://ww1.sinaimg.cn/mw690/7ef01fcagw1f2gzyzdp5vg20an05hgng.gif" width="380">
+
 
 
 
