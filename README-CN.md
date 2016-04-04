@@ -4,7 +4,7 @@ JJSearchViewAnim
 
 ####一个炫酷的SearchView搜索动画库，希望你希望！
 
-###说说
+
 <table>
   <thead>
     <tr>
@@ -74,6 +74,7 @@ JJSearchViewAnim
 * 注意：最后一个效果[MaterialSearchView](https://github.com/android-cjj/MaterialSearchView)，由于之前有写过，就没有集合进去了.
 
 ###使用说明
+
 #### (1) 在布局文件xml中
 ```xml
 <RelativeLayout
@@ -105,10 +106,9 @@ mJJSearchView.startAnim();
 mJJSearchView.resetAnim();
 ```
 
+###概要
 
-
-
-####前言：周末强撸一个库,差点灰飞烟灭.无妨,人生自古谁无死，来生继续撸代码.
+#####前言：周末强撸一个库,差点灰飞烟灭.无妨,人生自古谁无死，来生继续撸代码.
 
 立马入主题，几乎每个App都有搜索功能，然而形式千篇一律。我举个例子吧，就微信来说：
 
@@ -121,30 +121,11 @@ mJJSearchView.resetAnim();
 现在大部分App都是用这种方式了。我是希望能有App把这个功能做得酷炫点，毕竟它也是用户经常要用到的，给用户良好的体验还是很重要的。
 为此，我实现了别人设计的一些SearchView酷炫效果，可能不是很精致，你就勉强看看吧。
 
-图一：
-
-<img src="http://ww2.sinaimg.cn/mw690/7ef01fcagw1f2kfx45rqyg20b505lq3b.gif" width="380">
-
-图二：
-
-<img src="http://ww1.sinaimg.cn/mw690/7ef01fcagw1f2gzyysygrg20an05h3zb.gif" width="380">
-
-图三：
-
-<img src="http://ww1.sinaimg.cn/mw690/7ef01fcagw1f2kg8o2htzg20b505ljrj.gif" width="380">
-
-图四：
-
-<img src="http://ww2.sinaimg.cn/mw690/7ef01fcagw1f2gzz0xbkfg20an05hq47.gif" width="380">
-
-还有几种效果就不一一贴图了，你可以上我Github瞧瞧的。
-
-此时，如果你喜欢上这些酷炫的动画时，想知道他们是怎么在代码中实现的，没问题，我这就手把手教你撩一个绚丽的SearchViewAnim ， 呵呵，
-有点吹大了，说说我怎么实现的吧。
+此时，如果你看完表格那些动画，喜欢上这些它时，想知道他们是怎么在代码中实现的，没问题，我这就手把手教你撩一个绚丽的SearchViewAnim ， 呵呵，有点吹大了，说说我怎么实现的吧。
 
 ###实现思路
 
-仔细观察图一 ,效果是SearchView是由一个圆圈和一条直线（尾巴）构成的，开启动画时，尾巴慢慢消失成一点，然后这一点（dot） 进入圆圈内时，泛起波纹，在圈内四处逗留，然后在圆圈中心点停留闪烁，短暂的思考了下人生，又冲出去乖乖做一条尾巴。
+我们先对第一行表格的设计图进行仔细观察 ,效果是SearchView是由一个圆圈和一条直线（尾巴）构成的，开启动画时，尾巴慢慢消失成一点，然后这一点（dot） 进入圆圈内时，泛起波纹，在圈内四处逗留，然后在圆圈中心点停留闪烁，短暂的思考了下人生，又冲出去乖乖做一条尾巴。
 
 咳，这是一个顿悟生命的dot啊!
 
