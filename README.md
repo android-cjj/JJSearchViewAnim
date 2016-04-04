@@ -1,5 +1,7 @@
 JJSearchViewAnim
 ============================
+[中文版文档](https://github.com/android-cjj/JJSearchViewAnim/blob/master/README-CN.md)
+
 ![](http://ww1.sinaimg.cn/mw690/7ef01fcagw1f2kefqi8ekj205s05s749.jpg)
 
 ####A cool search view animation library ,I hope you like it.
