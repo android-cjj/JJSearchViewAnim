@@ -127,6 +127,12 @@ mJJSearchView.resetAnim();
 
 <img src="http://ww1.sinaimg.cn/mw690/7ef01fcagw1f2gzyzdp5vg20an05hgng.gif" width="380">
 
+还有几种效果就不贴图了，你可以上我Github瞧瞧的。
+
+如果你此时喜欢上这些酷炫的动画时，想知道他们是怎么在代码中实现的，没问题，我这就手把手教你撩一个绚丽的SearchViewAnim,呵呵，有点吹大了，大概说说我的思路。
+
+
+
 
 
 
