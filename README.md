@@ -56,7 +56,7 @@ JJSearchViewAnim
     <tr>
       <td><img src="http://ww1.sinaimg.cn/mw690/7ef01fcagw1f2gzywvmklg20an05hk2w.gif" width="240"></td>
        <td><img src="http://ww2.sinaimg.cn/mw690/7ef01fcagw1f2kfx6egogg20b505lq3r.gif" width="240"></td>
-       <td>Boris Kirov</td>
+       <td> Nicolás J. Engler </td>
       <td>JJCircleToBarController</td>
     </tr>
     <tr>
