@@ -105,7 +105,11 @@ mJJSearchView.startAnim();
 mJJSearchView.resetAnim();
 ```
 
-####about me
+####杂谈
+SearchView几乎是每个App必备的，做得炫酷点可以给用户好的体验。但是，我们都知道，一个App只能有一种风格，所以加入很多样式的动画是没必要的。我觉得你可以参考我的实现，修改成合适自己的。当然，水平有限及写的随意，该库还是有不少问题，也希望你能PR,完善它。
+
+
+####关于我
 如果你喜欢这个东东的话，可以关注我[github](https://github.com/android-cjj),follow下我，谢谢支持!也可以关注我微博[Android_cJJ](http://weibo.com/chenjijun2011/).
 
 
