@@ -1,7 +1,7 @@
 JJSearchViewAnim
 ============================
 [中文版文档及相关文章](https://github.com/android-cjj/JJSearchViewAnim/blob/master/README-CN.md)
-[![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-JJSearchViewAnim-green.svg?style=true)](https://android-arsenal.com/details/1/3390)
+     [![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-JJSearchViewAnim-green.svg?style=true)](https://android-arsenal.com/details/1/3390)
 
 ![](http://ww1.sinaimg.cn/mw690/7ef01fcagw1f2kefqi8ekj205s05s749.jpg)
 
