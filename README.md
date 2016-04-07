@@ -75,6 +75,7 @@ JJSearchViewAnim
     </tr>
   </tbody>
 </table>
+* The last effect you can find here:[MaterialSearchView](https://github.com/android-cjj/MaterialSearchView)
 
 ###Usage
 #### (1) In xml
