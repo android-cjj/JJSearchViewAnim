@@ -123,5 +123,4 @@ public class JJChangeArrowController extends JJBaseController {
         mState = STATE_ANIM_STOP;
         startSearchViewAnim();
     }
-
 }
