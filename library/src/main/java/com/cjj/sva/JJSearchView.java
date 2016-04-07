@@ -64,11 +64,7 @@ public class JJSearchView extends View {
 
     public void resetAnim() {
         if (mController != null)
-<<<<<<< HEAD
             mController.resetAnim();
-=======
-            mController.recetAnim();
->>>>>>> 3a19d94859686a9b6c03ccf7e8b879ae603e1ac8
     }
 
 }
