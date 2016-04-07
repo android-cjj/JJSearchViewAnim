@@ -1,0 +1,39 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:context="com.cjj.myapplication.MainActivity">
+    <item android:id="@+id/action7"
+          android:orderInCategory="100"
+          android:title="JJDotGoPathController"
+          app:showAsAction="never"/>
+    <item android:id="@+id/action1"
+          android:orderInCategory="100"
+          android:title="JJAroundCircleBornTailController"
+          app:showAsAction="never"/>
+    <item android:id="@+id/action2"
+          android:orderInCategory="100"
+          android:title="JJBarWithErrorIconController"
+          app:showAsAction="never"/>
+    <item android:id="@+id/action8"
+          android:orderInCategory="100"
+          android:title="JJScaleCircleAndTailController"
+          app:showAsAction="never"/>
+    <item android:id="@+id/action3"
+          android:orderInCategory="100"
+          android:title="JJChangeArrowController"
+          app:showAsAction="never"/>
+    <item android:id="@+id/action5"
+          android:orderInCategory="100"
+          android:title="JJCircleToLineAlphaController"
+          app:showAsAction="never"/>
+    <item android:id="@+id/action4"
+          android:orderInCategory="100"
+          android:title="JJCircleToBarController"
+          app:showAsAction="never"/>
+
+    <item android:id="@+id/action6"
+          android:orderInCategory="100"
+          android:title="JJCircleToSimpleLineController"
+          app:showAsAction="never"/>
+
+</menu>
