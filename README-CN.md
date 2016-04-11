@@ -108,6 +108,8 @@ mJJSearchView.startAnim();
 mJJSearchView.resetAnim();
 ```
 
+####源码分析及如何在项目中实现：[JJSearchViewAnim源码分析](http://www.jianshu.com/p/a48f4e6cf036)
+
 ###概要
 
 #####前言：周末强撸一个库,差点灰飞烟灭.无妨,人生自古谁无死，来生继续撸代码.
