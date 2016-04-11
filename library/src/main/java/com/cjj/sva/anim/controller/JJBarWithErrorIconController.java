@@ -8,6 +8,8 @@ import android.graphics.RectF;
 import com.cjj.sva.anim.JJBaseController;
 
 /**
+ * 这是一个神奇的类，神奇的是开始的时候好好的，后来作者偷懒就不画结束动画了
+ *
  * Created by cjj on 2016/4/3.
  */
 public class JJBarWithErrorIconController extends JJBaseController {

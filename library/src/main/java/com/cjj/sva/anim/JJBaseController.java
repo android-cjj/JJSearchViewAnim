@@ -27,6 +27,9 @@ public abstract class JJBaseController {
     public static final int STATE_ANIM_NONE = 0;
     public static final int STATE_ANIM_START = 1;
     public static final int STATE_ANIM_STOP = 2;
+    public static final int DEFAULT_ANIM_TIME = 500;
+    public static final float DEFAULT_ANIM_STARTF = 0;
+    public static final float DEFAULT_ANIM_ENDF = 1;
 
     protected float mPro = -1;
     private WeakReference<View> mSearchView;
@@ -96,7 +99,8 @@ public abstract class JJBaseController {
 
 
     public ValueAnimator startSearchViewAnim() {
-        ValueAnimator valueAnimator = startSearchViewAnim(0, 1, 500);
+        ValueAnimator valueAnimator = startSearchViewAnim(DEFAULT_ANIM_STARTF, DEFAULT_ANIM_ENDF,
+                DEFAULT_ANIM_TIME);
         return valueAnimator;
     }
 
@@ -115,7 +119,6 @@ public abstract class JJBaseController {
                 mPro = (float) valueAnimator.getAnimatedValue();
                 if (null != pathMeasure)
                     pathMeasure.getPosTan(mPro, mPos, null);
-                LogHelper.trace("mpos--->"+mPos[0]);
                 getSearchView().invalidate();
             }
         });
