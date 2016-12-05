@@ -129,7 +129,7 @@ mJJSearchView.resetAnim();
 
 
 ####About me
-A low-level android software development engineers, like watching cartoons, like playing football, love life ! If you want to make friends with me, You can email tell me.Email address: cjjcjj2014@gmail.com.
+A low-level android software development engineer, like watching cartoons, like playing football, love life ! If you want to make friends with me, You can email tell me.Email address: cjjcjj2014@gmail.com.
 
 
 License
